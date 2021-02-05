@@ -1,4 +1,4 @@
-package com.udemy.curso.services;
+package com.udemy.course.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.udemy.curso.entities.Order;
-import com.udemy.curso.repositories.OrderRepository;
+import com.udemy.course.entities.Order;
+import com.udemy.course.repositories.OrderRepository;
 
 @Service
 public class OrderService {
