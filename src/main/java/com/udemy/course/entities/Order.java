@@ -1,4 +1,4 @@
-package com.udemy.curso.entities;
+package com.udemy.course.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -12,7 +12,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes;
 
 @Entity
 @Table(name = "tb_order")

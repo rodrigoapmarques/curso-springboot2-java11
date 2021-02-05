@@ -1,4 +1,4 @@
-package com.udemy.curso.config;
+package com.udemy.course.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -8,10 +8,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.udemy.curso.entities.Order;
-import com.udemy.curso.entities.User;
-import com.udemy.curso.repositories.OrderRepository;
-import com.udemy.curso.repositories.UserRepository;
+import com.udemy.course.entities.Order;
+import com.udemy.course.entities.User;
+import com.udemy.course.repositories.OrderRepository;
+import com.udemy.course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")

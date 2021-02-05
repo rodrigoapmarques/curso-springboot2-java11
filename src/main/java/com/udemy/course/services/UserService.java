@@ -1,4 +1,4 @@
-package com.udemy.curso.services;
+package com.udemy.course.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.udemy.curso.entities.User;
-import com.udemy.curso.repositories.UserRepository;
+import com.udemy.course.entities.User;
+import com.udemy.course.repositories.UserRepository;
 
 @Service
 public class UserService {
